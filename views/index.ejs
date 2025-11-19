@@ -1,11 +1,76 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title><%= title %></title>
-    <link rel='stylesheet' href='/stylesheets/style.css' />
-  </head>
-  <body>
-    <h1><%= title %></h1>
-    <p>Welcome to <%= title %></p>
-  </body>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyMovieSpace - Inicio</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="logo">MY<span>MOVIE</span>SPACE</div>
+
+        <nav class="nav">
+            <a class="help">¿Necesitas ayuda?</a>
+            <a class="btn btn-light" href="/login">Inicia Sesión</a>
+            <a class="btn btn-light" href="/register">Regístrate</a>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>GESTIONA TU COLECCIÓN DE PELÍCULAS CON ESTILO</h1>
+            <a href="/login" class="btn btn-main">Entrar</a>
+        </div>
+
+        <img src="/images/camera.png" alt="Camera" class="hero-img">
+        
+    </section>
+
+    <!-- ÚLTIMAS PELÍCULAS -->
+    <section class="movies-section">
+        <h2>Últimas películas añadidas</h2>
+
+        <div class="movies-grid">
+            <img src="/images/bladerunner.jpg" alt="Blade Runner">
+            <img src="/images/wickerman.jpg" alt="Wicker Man">
+            <img src="/images/naranjamecanica.jpg" alt="La Naranja Mecánica">
+            <img src="/images/lebowski.jpg" alt="Big Lebowski">
+            <img src="/images/pulpfiction.jpg" alt="Pulp Fiction">
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <div class="footer-col">
+            <h4>Contáctanos</h4>
+            <p>+324567898</p>
+            <p>mymoviespace@gmail.com</p>
+            <p>Augusto Leguía Sur 79, Las Condes</p>
+        </div>
+
+        <div class="footer-col center">
+            <div class="logo">MY<span>MOVIE</span>SPACE</div>
+            <p>Soporte y Ayuda</p>
+        </div>
+
+        <div class="footer-col redes">
+            <h4>Búscanos en redes</h4>
+            <div class="social-icons">
+                <img src="/images/instagram.svg" alt="YouTube">
+                <img src="/images/youtube.svg" alt="Instagram">
+            </div>
+        </div>
+
+    </footer>
+
+    <div class="copyright">
+        2025 Marta Trujillo
+    </div>
+
+</body>
 </html>
